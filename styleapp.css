@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+   padding: 20px;
+   background-color: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar a {
+    order: 2; 
+    margin-right: 100px;
+    color: black;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.text > h1{
+    color: #6a0572;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr.header-divider {
+    width: 80%;
+    margin: 20px auto; /* Ajuste conforme necessário para o espaçamento desejado acima e abaixo da linha */
+    border: 1px solid #6a0572; /* Cor da linha, ajuste conforme necessário */
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 150px;
+    text-transform: uppercase;
+    background-color: #af59c9; /* Cor principal do botão */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #8c3dc0; /* Cor do botão ao passar o mouse */
+}
+p{
+    font-size: x-large;
+}
+
+footer {
+    background-color: #8c3dc0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 70px;
+}

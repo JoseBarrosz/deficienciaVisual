@@ -1,0 +1,316 @@
+
+
+
+.primeiro-texto {
+    margin-top: 100px;
+}
+
+.perfil{
+    margin-top: 20px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+    padding: 5%;
+    
+}
+
+.info-left > h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6a0572;
+}
+
+.info-right{
+    display: flex;
+    justify-content: end;
+    width: 75%;
+    height: 90%;
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+.ftapp{
+    display: flex;
+    justify-content: end;
+    width: 75%;
+    height: 90%;
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+.cego {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+    padding: 5%;
+    width: 100%;
+    margin-top: 20px;
+}
+.cego img {
+    /* Definindo o tamanho da imagem igual ao texto */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto;
+    margin-left: auto; /* Ajuste o valor conforme necessário para criar espaço entre a imagem e o texto */
+}
+
+.imagem-left{
+    
+    width: 75%;
+    height: 90%;
+    margin-right: 100px;
+    margin-top: 65px;
+}
+
+
+
+
+
+.texto-container > h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6a0572;
+
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-thumbnail {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+
+
+
+.imagem-app {
+    margin-top: -60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+    padding: 10%; /* Ajuste o valor do padding conforme necessário para diminuir o espaçamento */
+}
+
+.imagem img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto;
+    padding-right: 20px;
+}
+
+.texto-right {
+    padding-left: 20px; /* Adicione um pouco de padding à esquerda para separar o texto da imagem */
+}
+
+.texto-right> h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #6a0572;
+    
+}
+
+
+
+
+/* Adicione esses estilos ao seu arquivo de estilo CSS */
+
+.os-apps {
+   background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0px;
+    padding: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+
+
+.aplicativos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.app-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 80px; /* Ajuste conforme necessário para o espaçamento desejado entre as imagens */
+    
+}
+
+.icone {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px; /* Adicione bordas arredondadas */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Adicionando transição para transform e sombra */
+    
+}
+
+.icone:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adicione uma sombra ao passar o mouse */
+}
+
+.botao {
+    text-transform: uppercase;
+    background-color: #af59c9;
+    color: #fff;
+    border: 0;
+    padding: 1em 2em;
+    margin-top: 10px; /* Ajuste conforme necessário para o espaçamento entre a imagem e o botão */
+    border-radius: 5px; /* Adicionando bordas arredondadas ao botão */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionando uma transição suave para a mudança de cor */
+    
+}
+
+.botao:hover {
+    background-color: #8c3dc0; /* Trocando a cor ao passar o mouse */
+}
+
+
+
+  
+
+footer {
+    background-color: #8c3dc0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.apps::before {
+    content: '';
+    display: block;
+    width: 80%; /* Ajuste conforme necessário para a largura desejada da linha */
+    height: 2px; /* Ajuste conforme necessário para a espessura desejada da linha */
+    background-color: #000; /* Cor da linha, ajuste conforme necessário */
+    margin: 0 auto; /* Centralizar a linha */
+    margin-top: 20px; /* Ajuste conforme necessário para o espaçamento desejado acima da linha */
+}
+
+.apps::before,
+.primeiro-texto::before {
+    content: '';
+    display: block;
+    width: 80%; /* Ajuste conforme necessário para a largura desejada da linha */
+    height: 2px; /* Ajuste conforme necessário para a espessura desejada da linha */
+    background-color: #000; /* Cor da linha, ajuste conforme necessário */
+    margin: 0 auto; /* Centralizar a linha */
+    margin-top: 20px; /* Ajuste conforme necessário para o espaçamento desejado acima da linha */
+}
+
+
+
+/* Adicione estes estilos à sua folha de estilo CSS */
+
+.primeiro-texto {
+    margin-top: 50px; /* Reduzi a margem para diminuir o espaçamento */
+}
+
+.info {
+    margin-top: 10px; /* Reduzi a margem para diminuir o espaçamento */
+}
+
+.info-right, .ftapp, .imagem-app, .texto-right {
+    margin-top: 30px; /* Reduzi a margem para diminuir o espaçamento */
+}
+
+.texto-container > h1,
+.texto-right > h1,
+.info-left > h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px; /* Reduzi a margem para diminuir o espaçamento acima dos títulos */
+}
+
+.apps::before,
+.primeiro-texto::before {
+    content: '';
+    display: block;
+    width: 80%; /* Ajuste conforme necessário para a largura desejada da linha */
+    height: 2px; /* Ajuste conforme necessário para a espessura desejada da linha */
+    background-color: #000; /* Cor da linha, ajuste conforme necessário */
+    margin: 0 auto; /* Centralizar a linha */
+    margin-top: 10px; /* Reduzi a margem para diminuir o espaçamento acima da linha */
+}
+
+/* Restante dos estilos... */
+
+/* Adicione esses estilos ao final do seu arquivo style.css */
+
+.navbar-nav {
+    margin-left: auto; /* Move os itens da barra de navegação para a direita */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Cor do texto do link */
+}
+.navbar-toggler-icon {
+    border: 1px solid #b619ff; /* Adiciona uma borda ao ícone do botão de alternância */
+}
+
+/* Adiciona uma transição suave para a cor de fundo ao passar o mouse */
+.navbar-nav .nav-link:hover {
+    transition: background-color 0.3s;
+}
+
+/* Adiciona uma borda arredondada aos botões */
+.navbar-nav .nav-link {
+    border-radius: 5px;
+}
+
+/* Adiciona um pouco de espaço entre os botões */
+.navbar-nav .nav-link {
+    margin-right: 10px;
+}
+
+/* Adiciona o estilo de cursor pointer ao passar o mouse sobre os links */
+.navbar-nav .nav-link {
+    cursor: pointer;
+}
+
+
+
+.navbar-brand img {
+    margin-right: 20px; /* Afasta a logo da borda direita */
+}
+
+nav.navbar {
+    background-color: #ffffff; /* Adicione a cor de fundo diretamente à classe navbar */
+    padding: 10px;
+}
+
+/* Adicione essas linhas ao final do seu arquivo de estilo CSS */
+header {
+    background-color: #ffffff; /* Cor de fundo do header */
+    padding: 10px; /* Adiciona um espaçamento interno ao header */
+}
+
+.navbar-brand img {
+    margin-right: 20px; /* Afasta a logo da borda direita */
+}
+
+hr.header-divider {
+    width: 80%;
+    margin: 20px auto; /* Ajuste conforme necessário para o espaçamento desejado acima e abaixo da linha */
+    border: 1px solid #6a0572; /* Cor da linha, ajuste conforme necessário */
+}
